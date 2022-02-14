@@ -1,3 +1,9 @@
+<?php 
+    $stringa = "ciao Lorenzo.Benvenuto in php.";
+    $sensura = $_GET["Lorenzo"];
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +13,6 @@
     <title>php-badwords</title>
 </head>
 <body>
-    
+    <p><?php echo $stringa; echo " "; echo strlen($stringa)?></p>
 </body>
 </html>
