@@ -1,5 +1,5 @@
 <?php 
-    $stringa = "ciao Lorenzo.Benvenuto in php.";
+    $stringa = "Ciao Lorenzo.Benvenuto in php.";
     echo strlen($stringa);
     $censura = $_GET["cens"];
     $cens = "*****";
