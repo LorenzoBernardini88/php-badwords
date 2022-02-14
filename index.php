@@ -1,7 +1,7 @@
 <?php 
     $stringa = "Tu non puoi passare! Sono un servitore del fuoco segreto e reggo la fiamma di Anor! Il fuoco oscuro non ti servirà a nulla, fiamma di Udun! Ritorna nell'ombra!  Tu non puoi passare!";
     echo strlen($stringa);
-    $censura = $_GET["cens"];
+    $censura = strtolower($_GET["cens"]);
     $cens = "*****";
     $stringa = str_replace($censura,$cens,$stringa);
     $font= "style = 'font-weight:bold; font-size:30px;'"
