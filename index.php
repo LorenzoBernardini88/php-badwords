@@ -1,7 +1,9 @@
 <?php 
     $stringa = "ciao Lorenzo.Benvenuto in php.";
     echo strlen($stringa);
-    $censura = $_GET["Lorenzo"];
+    $censura = $_GET["cens"];
+    $cens = "*****";
+    $stringa = str_replace($censura,$cens,$stringa);
 ?>
 
 
