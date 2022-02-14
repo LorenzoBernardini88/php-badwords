@@ -1,5 +1,5 @@
 <?php 
-    $stringa = "Ciao Lorenzo.Benvenuto in php.";
+    $stringa = "Tu non puoi passare! Sono un servitore del fuoco segreto e reggo la fiamma di Anor! Il fuoco oscuro non ti servirà a nulla, fiamma di Udun! Ritorna nell'ombra!  Tu non puoi passare!";
     echo strlen($stringa);
     $censura = $_GET["cens"];
     $cens = "*****";
