@@ -4,6 +4,7 @@
     $censura = $_GET["cens"];
     $cens = "*****";
     $stringa = str_replace($censura,$cens,$stringa);
+    $font= "style = 'font-weight:bold; font-size:30px;'"
 ?>
 
 
@@ -16,6 +17,6 @@
     <title>php-badwords</title>
 </head>
 <body>
-    <p><?php echo $stringa; ?></p>
+    <p <?php echo $font ?>><?php echo $stringa; ?></p>
 </body>
 </html>
